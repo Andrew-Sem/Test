@@ -1,0 +1,32 @@
+/* for desktop */
+/* Large devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+    min-width: 900px;
+  }
+  .login {
+    width: 50%;
+    height: auto;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .login {
+    min-width: none;
+    max-width: 30%;
+  }
+  .container {
+    padding: 0 30px;
+    min-width: 800px;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+/* Custom, Iphone Retina */
+@media only screen and (max-width: 320px) {
+}
